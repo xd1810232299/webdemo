@@ -10,6 +10,8 @@ public class LoginController {
     //登录页面
     @RequestMapping("/loginPage")
     public String login(){
+
+        System.out.println("123");
         return "login";
     }
 
