@@ -30,8 +30,23 @@ public class ScheduledTasks {
     }
 
     //隔6秒执行一次
-    @Scheduled(fixedDelay = 6000)
+//    @Scheduled(fixedDelay = 6000)
     public void test2(){
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+        }
+
+        System.out.println("定时任务测试"+dateFormat.format(new Date()));
+
+    }
+
+    //隔6秒执行一次
+    @Scheduled(initialDelay=10000,fixedDelay = 6000)
+    public void test3(){
 
         try {
             Thread.sleep(4000);
