@@ -12,15 +12,17 @@ import java.util.List;
 @Service
 public class UserService {
 
-    @Autowired
-    private UserRepository userRepository;
+    public String name = "789";
 
-    @Transactional
-    public List<User> findAll(){
+//    @Autowired
+//    private UserRepository userRepository;
 
-        List<User> all = userRepository.findAll();
-
-        return all == null?null:all;
-    }
+//    @Transactional
+//    public List<User> findAll(){
+//
+//        List<User> all = userRepository.findAll();
+//
+//        return all == null?null:all;
+//    }
 
 }

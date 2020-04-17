@@ -1,6 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="webdemo:war exploded">
     <output-path>$PROJECT_DIR$/target/demo-webdemo</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>webdemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -49,7 +56,6 @@
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.1.6.RELEASE" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.9" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.9" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.9.9" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.9" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.9.9" />
@@ -67,6 +73,19 @@
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:9.0.21" />
           <element id="library" level="project" name="Maven: org.eclipse.jdt:ecj:3.16.0" />
+          <element id="library" level="project" name="Maven: com.pig4cloud.excel:excel-spring-boot-starter:0.0.2" />
+          <element id="library" level="project" name="Maven: com.alibaba:easyexcel:2.1.6" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi:3.17" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.11" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.1" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:3.17" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml-schemas:3.17" />
+          <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0" />
+          <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
+          <element id="library" level="project" name="Maven: com.github.virtuald:curvesapi:1.04" />
+          <element id="library" level="project" name="Maven: cglib:cglib:3.1" />
+          <element id="library" level="project" name="Maven: org.ow2.asm:asm:4.2" />
+          <element id="library" level="project" name="Maven: org.ehcache:ehcache:3.6.3" />
         </element>
       </element>
       <element id="directory" name="META-INF">
